@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(53, 180, 174, 0.2), rgba(53, 95, 148, 0.4), rgba(39, 150, 131, 0.4), rgba(108, 144, 189, 0.8));
+}
+
+.git-main-box{
+    position: relative;
+    display: flex;
+    flex: row wrap;
+}
+
+.git-box{
+    width: 100px;
+    height: 100px;
+    background:rgba(39, 150, 131, 0.4);
+    position: absolute;
+}
+
+.git-box-1{
+    width: 100px;
+    height: 100px;
+    background:rgba(27, 109, 129, 0.4);
+    position: absolute;
+}
+.git-box-2{
+    width: 100px;
+    height: 100px;
+    background:rgba(16, 175, 109, 0.4);
+    position: absolute;
+}
+.git-box-3{
+    width: 100px;
+    height: 100px;
+    background:rgba(29, 94, 148, 0.4);
+    position: absolute;
+}
+.git-box-4{
+    width: 100px;
+    height: 100px;
+    background:rgba(80, 17, 182, 0.4);
+    position: absolute;
+}
+
+.git-main-box:hover .git-box{
+    transform: translateX(200px);
+    transition: 0.5s;
+}
+
+.git-main-box:hover .git-box-1{
+    transform: translateX(400px);
+    transition: 0.7s;
+}
+
+.git-main-box:hover .git-box-2{
+    transform: translateX(600px);
+    transition: 0.9s;
+}
+
+.git-main-box:hover .git-box-3{
+    transform: translateX(800px);
+    transition: 1.1s;
+}
+
+.git-main-box:hover .git-box-4{
+    transform: translateX(00px);
+    transition: 1.3s;
+}
+
